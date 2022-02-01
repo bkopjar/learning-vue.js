@@ -8,10 +8,17 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  #title {
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+  }
   
   #app {
     width: 400px;
-    height: 100vh;
+    height: 400px;
     margin: auto;
     text-align: center;
     display: flex;

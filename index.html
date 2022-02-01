@@ -10,13 +10,13 @@
 
 <body>
 
+    <h1 id="title">Random User Generator</h1>
     <div id="app">
         <img :class="gender" v-bind:src="image" alt=""/>    <!-- Instead of v-bind, I can just leave : -->
         <h1>{{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
-        <button :class="gender">Get Random User</button>
+        <button v-on:click="getUser()" :class="gender">Get Random User</button>
     </div>
-
 
     <script src="https://unpkg.com/vue@3.2.28"></script>
     <script src="app.js"></script>
